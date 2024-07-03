@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* #023441 
+   #06A0C6
+   #4DD7F9       
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: , ;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(to right, #024050, #057a97, #17acd1 );
+}
+
+section {
+    display: block;
+    background-color: white;
+    unicode-bidi: isolate;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease;  
+}
