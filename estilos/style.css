@@ -72,4 +72,13 @@ h1#logue {
 
 div#d-email {
     border-radius: 10px;
+    text-align: center;
+}
+
+div#d-senha {
+    text-align: center;
+}
+
+div#enter, div#forget {
+    text-align: center;
 }
