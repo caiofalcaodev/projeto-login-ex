@@ -46,8 +46,8 @@ section#login {
     transition-timing-function: ease; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 600px;
     border-radius: 20px; 
 }
 
@@ -56,7 +56,7 @@ section#login > div#imagem {
     background: url(../imagens/câmera.jpg) no-repeat;
     background-position: center bottom;
     background-size: cover;
-    height: 200px;
+    height: 275px;
 }
 
 section#login > div#formulario {
@@ -70,3 +70,6 @@ h1#logue {
     font-size: xx-large;
 }
 
+div#d-email {
+    border-radius: 10px;
+}
